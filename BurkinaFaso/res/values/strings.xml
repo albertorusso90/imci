@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">IMCI</string>
+    <string name="full_app_name">INTEGRATED MANAGEMENT OF CHILDHOOD ILLNESS</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="selector">></string>
+    <string name="registration">Registration</string>
+    <string name="notyet">Not yet registered? Sign up now!</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm">Confirm</string>
+    <string name="create">Create</string>
+    <string name="center">Select Center</string>
+    <string name="error_username">Username to Short</string>
+    <string name="error_password">Password to Short</string>
+    <string name="error_confirm">\'Password\' must match \'Confirm\'</string>
+    <string name="error_location">You must set a location center</string>
+    <string name="successfull_create">Account has been created</string>
+    <string name="successfull_edit">Account has been edited</string>
+    <string name="login">Login</string>
+    <string name="login_cap">LOGIN</string>
+    <string name="register_cap">REGISTER</string>
+    <string name="logout">Logout</string>
+    <string name="remember">Remember Me?</string>
+    <string name="invalid">Invalid Credentials, Please try again</string>
+    <string name="add_patient">Add Patient</string>
+    <string name="search_patient">Search patient</string>
+    <string name="empty_village">No Village found with that name</string>
+    <string name="filter_patient">Filter patients</string>
+    <string name="filter_village">Filter Village</string>
+    
+    <!-- PATIENT -->
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="dob">Date of Birth</string>
+    <string name="village">Select Village</string>
+    <string name="setvillage">Set Village</string>
+    <string name="error_firstname">Firstname is to short</string>
+    <string name="error_lastname">Lastname is to short</string>
+    <string name="error_village">You must set a village</string>
+    <string name="success_patient">Patient has been created</string>
+    <string name="new_diagnose">New Diagnosis</string>
+    <string name="previous_diagnose">Previous Diagnosis</string>
+    <string name="empty_patient">There is no Patient with that name, Click to add</string>
+    
+    <!-- MENU -->
+    <string name="edit">Edit</string>
+    <string name="remove">Remove</string>
+    
+    <!-- MANAGE USER -->
+    <string name="manage_user">Manage User</string>
+    <string name="admin">Administrator</string>
+    <string name="empty_diagnose">This user has no diagnosis</string>
+    
+    <!-- DIAGNOSE -->
+    <string name="diagnose">Diagnose</string>
+    <string name="next">Next</string>
+    <string name="fullfill_question">You must fulfill the questions</string>
+    
+    <!-- TREATMENTS -->
+    <string name="no_treatment">No Treatment Found</string>
+    <string name="prescription">Prescription</string>
+    <string name="treatment_name">Treatment Name</string>
+    <string name="treatment_desc">Description</string>
+    
+    <!-- SITES -->
+    <string name="no_site">Before we start, you must set a location center</string>
+    <string name="site_cap">SITE</string>
+    <string name="phone">Phone</string>
+    <string name="error_phone">Phone is to short</string>
+    <string name="successfull_site">Successfully created a new site</string>
+    
+    
+    
+
+</resources>

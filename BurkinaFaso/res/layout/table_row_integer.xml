@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:orientation="vertical"
+    tools:ignore="InefficientWeight" >
+
+    <TextView
+        android:id="@+id/textQuestion"
+        android:textSize="13sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:background="#55000000"
+        android:textColor="#FFFFFF"
+        android:text="Demander : l’enfant est-il incapable de boire ou de prendre le sein ?"
+        tools:ignore="HardcodedText"  />
+
+    <LinearLayout
+        android:background="#22000000"
+        android:layout_height="46dp"
+        android:layout_width="fill_parent">
+
+        <EditText
+            android:id="@+id/editInput"
+            android:minWidth="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Set answer"
+            android:inputType="number"
+            android:textSize="13sp"
+            tools:ignore="HardcodedText"  />
+    </LinearLayout>
+
+</LinearLayout>
